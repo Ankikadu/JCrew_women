@@ -1,0 +1,165 @@
+.header {
+    height: 55px;
+    display: grid;
+    grid-gap: 40px;
+    padding: 5px;
+    font-family: soleil, Helvetica, Arial, sans-serif;
+    grid-template-columns: 120px 560px 520px;
+    position: sticky;
+}
+
+#logo {
+    margin-left: 20px;
+    height: 35px;
+    font-size: 30px;
+}
+
+#left {
+    height: 30px;
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#right {
+    height: 40px;
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+}
+
+#help {
+    text-align: center;
+    height: 35px;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+#fotertext {
+    color: gray;
+    margin-top: 80px;
+    font-size: 15px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 650px 350px;
+    grid-gap: 250px;
+    background-color: lavender;
+}
+
+#leftfooter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    font-family: soleil, Helvetica, Arial, sans-serif;
+}
+
+#leftfooter>div>p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#helpid {
+    display: flex;
+    height: 40px;
+    width: 300px;
+}
+
+#plchldrtext {
+    height: 40px;
+    width: 200px;
+}
+
+#signbtn {
+    height: 45px;
+    width: 100px;
+    color: white;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color:red;
+}
+
+#box4 {
+    display: grid;
+    grid-template-columns: 600px 130px;
+    grid-gap: 450px;
+    margin-top: 20px;
+}
+
+#left4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#hide {
+    width: 320px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#sort {
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#right4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px;
+    font-weight: bold;
+}
+
+#right4>div {
+    font-size: 13px;
+}
+
+#top10 {
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#left2>div {
+    display: grid;
+    grid-template-columns: 220px 20px;
+}
+
+#rightside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 600px;
+    grid-gap: 10px;
+    margin-top:50px;
+}
+
+#rightside>div {
+    margin-left: 10px;
+}
+
+INR {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+Actprice {
+    color: red;
+    margin-right: 10px;
+}
+
+offer {
+    margin-right: 10px;
+}
+
+color {
+    color: gray;
+}

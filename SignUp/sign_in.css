@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202201-Jan/flyout/2022jan_0118_flyouts_w_img1.jpg");
+}
+
+.signinbox {
+    height: 450px;
+    width: 320px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#remember {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#text1,
+#text2 {
+    height: 30px;
+    width: 280px;
+    margin: 10px;
+}
+
+#text3 {
+    height: 50px;
+    width: 290px;
+    background-color: black;
+    color: white;
+}
+
+p {
+    color: gray;
+}
